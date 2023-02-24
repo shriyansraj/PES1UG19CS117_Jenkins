@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -o shriyans PES1G19CS117.cpp'
+        sh 'g++ -o shriyans PES1UG19CS117.cpp'
         build job : 'PES1UG19CS117-1'
         echo 'Build stage successful'
       }
